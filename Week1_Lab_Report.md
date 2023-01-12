@@ -37,17 +37,3 @@ You will be using the terminal in this class to open files, run files, move file
 
 ![image](https://user-images.githubusercontent.com/122569404/212184896-cbf315bf-6293-4cf0-b1cb-f8d45c2349bc.png)
 > For example, I run some commands to cat (print contents of hello.txt), pwd (show working directory), and ls (to show files in my current working directory).
-
-
-
-
-
-
-
-
-
-***
-writing a tutorial for future 15L students on how to log into ieng6
-- use 3 screenshots
-- 2-3 bullet points per steps
-- install vs code, remote connecting, trying some commands
