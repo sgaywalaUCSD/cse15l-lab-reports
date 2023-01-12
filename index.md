@@ -15,7 +15,7 @@ You will want to connect to the remote server for this class as a place to store
 (Steps 2-3 not necessary if on Mac)
 1. Set up your CSE15L account on the UCSD Website (https://sdacs.ucsd.edu/~icc/index.php). You can do this by logging in, clicking on the "cs15lwi23xxx" button, and changing your password. To change your password, make sure to hit enter and not hit the blue button. Wait 15 minutes so the account password change can sync.
 2. Install Git for Windows (https://gitforwindows.org/)
-3. Follow this [tutorial][1] to get Git connected with VS Code
+3. Follow this [tutorial]([http://a.com](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)) to get Git connected with VS Code
 4. If the terminal is not open, press Cnrl + ` to open the terminal.
 5. Enter the following command (without the $)
 `$ ssh cs15lwi23zz@ieng6.ucsd.edu`
@@ -23,8 +23,6 @@ You will want to connect to the remote server for this class as a place to store
 7. Now, enter the password you had set in step 1. Your output should look similar to the image.
 ![image](https://user-images.githubusercontent.com/122569404/212183831-b6b3a0c8-c7c0-4dac-9f4f-08b21b2044ef.png)
 >Sample input and output in the terminal to remote connect.
-
-[1]: [https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994]
 
 ***
 ## Using Commands
