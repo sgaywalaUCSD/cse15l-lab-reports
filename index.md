@@ -9,6 +9,7 @@ You will want to use Visual Studio Code as the program to type up code for this 
 3. Some of you will already have VS Code installed for a previous class (like I did), in which case you may not need to redownload VS Code as long as you have the correct version.
 ![image](https://user-images.githubusercontent.com/122569404/212181766-9d9c8071-3ac6-4b4a-8cd2-467de941befa.png)
 >Sample Image of VS Code downloaded
+
 ***
 ## Remote Connecting
 You will want to connect to the remote server for this class as a place to store code you type up and work on projects. Let's connect to the remote server.
