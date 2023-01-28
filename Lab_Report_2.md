@@ -23,6 +23,52 @@ Screenshot adding another Message:
 
 ## Part 2
 
+A failure-inducing input for the buggy program:
+```
+  @Test
+  public void testReversed2(){
+    int[] input1 = { 5, 7 };
+    assertArrayEquals(new int[]{ 7, 5 }, ArrayExamples.reversed(input1));
+  }
+```
+
+An input that doesn’t induce a failure:
+```
+  @Test //Testing Empty Array
+  public void testReversed1(){
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```
+
+The symptom, as the output of running the tests:
+![image](https://user-images.githubusercontent.com/122569404/215227238-aee6c9dc-e98b-4dd8-80b1-2055fdc950c0.png)
+
+
+The bug, as the before-and-after code change required to fix it:
+```
+//Before (Has Bugs)
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+```
+//After (Bugs fixed)
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+
+The bug is that the passed in array and the new array are kind of switched. In the old code, the reversed Array creates a newArray, which contains all 0s, is reversed by changing the contents of the array passed in. However, this fix switches the new Array and the passed in array. This fix makes the new Array contain the reversed contents of the passed in array, and not the other way around.
 
 ## Part 3
 Something from this lab I learned was, ironically, not so much about bugs and testing. I learned more about how array references work, especially when it comes to references being passed to methods. For example, this code (though it appears like it may work), does not actually reverse the Array in place because of how Array References work:
