@@ -1,4 +1,6 @@
 # CSE15L Lab Report 2
+Siddharth Gaywala
+CSE15L
 ***
 ## Part 1
 Code for String Server:
@@ -10,7 +12,7 @@ Screenshot adding 1st Message:
 ![image](https://user-images.githubusercontent.com/122569404/215223891-c3e038ac-94a1-49e0-8490-9ec83646296e.png)
 
 * The methods in the code called are: the main method, parseInt method to get the port from args, Server's start method, StringServer's handleRequest Method, and URI's getPath method.
-* relevant arguments to those methods values of relevant fields: The argument for the port is 3221 (randomely chosen), the path is "/add-message", and the query is "?s=Testing Message 1". 
+* relevant arguments to those methods values of relevant fields: The argument for the port is 3221 (randomely chosen), the path is "/add-message", and the query is "?s=Testing Message 1". The value for the URI url is new URI("localhost:3221/add-message?s=Testing Message 1").
 * how values of relevant fields change: The value of the message field changes from the empty String to "Testing Message 1\n". 
 
 Screenshot adding another Message:
@@ -18,7 +20,7 @@ Screenshot adding another Message:
 ![image](https://user-images.githubusercontent.com/122569404/215223995-6844f2a4-a07a-4413-beb1-734c4428ac57.png)
 
 * The methods in the code called are: the main method, parseInt method to get the port from args, Server's start method, StringServer's handleRequest Method, URI's getPath method, etc.
-* relevant arguments to those methods values of relevant fields: The argument for the port is 3221 (randomely chosen), the path is "/add-message", and the query is "?s=Testing adding another message". 
+* relevant arguments to those methods values of relevant fields: The argument for the port is 3221 (randomely chosen), the path is "/add-message", and the query is "?s=Testing adding another message". The value for the URI url is new URI("localhost:3221/add-message?s=Testing adding another message").
 * how values of relevant fields change: The value of the message field changes from "Testing Message 1\n" to "Testing Message 1\nTesting adding another message\n". 
 
 ## Part 2
