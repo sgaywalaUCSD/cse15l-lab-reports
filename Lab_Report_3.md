@@ -38,6 +38,7 @@ $ grep -l -r "in California" written_2/ //example using -r with a directory
 ```
 
 Here are the outputs of the examples:
+
 ![image](https://user-images.githubusercontent.com/122569404/218027664-99eabeaa-f9a0-479f-bff6-28b02bcab3b4.png)
 
 ![image](https://user-images.githubusercontent.com/122569404/218027174-26812376-e5cf-4c55-860f-eab08f8da9d7.png)
@@ -54,6 +55,7 @@ $ grep -v "and" written_2/travel_guides/berlitz2/California-WhatToDo.txt | grep 
 ```
 
 Here are the outputs of the examples:
+
 ![image](https://user-images.githubusercontent.com/122569404/218030142-210ae5ba-3cd2-4b99-a0bd-e7253a3853ae.png)
 ![image](https://user-images.githubusercontent.com/122569404/218030627-640870e8-361e-4b16-ab4d-bfe943d79a64.png)
 
@@ -69,6 +71,7 @@ $ grep -r -n --color="always" "waterskiing," written_2/
 ```
 
 Here are the outputs of the examples:
+
 ![image](https://user-images.githubusercontent.com/122569404/218032131-bfc00910-834d-44b6-984f-138c3515531b.png)
 ![image](https://user-images.githubusercontent.com/122569404/218032669-e6b57198-9048-45e4-a860-5a45b01e0f7e.png)
 
