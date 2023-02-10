@@ -46,7 +46,7 @@ An input that doesn’t induce a failure:
 ```
 
 The symptom, as the output of running the tests:
-![image](https://user-images.githubusercontent.com/122569404/215227238-aee6c9dc-e98b-4dd8-80b1-2055fdc950c0.png)
+![image](https://user-images.githubusercontent.com/122569404/217977586-bac2a20a-a6a8-4155-bb8d-077d8f903172.png)
 
 
 The bug, as the before-and-after code change required to fix it:
