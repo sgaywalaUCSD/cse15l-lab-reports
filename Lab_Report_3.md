@@ -76,7 +76,10 @@ Here are the outputs of the examples:
 The 1st example is showing the line numbers of all lines in California-WhatToDo.txt with "beaches" in it (color was turned on to see it better). We can see that "beaches" is on lines 11, 12, and 15. The 2nd example is recursively searching through all files in the written_2/ directory for any files matching "waterskiing" and we can see the file and what line contains this pattern (color was turned on to see it better). This command is useful to know which line in a file had the pattern match. See the sources list.
 
 ## Sources
-[Link to Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+This [Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/) was used in the research for the information above as well as the following grep help command:
+```
+$ grep --help
+```
 
 MLA Citation:
 
