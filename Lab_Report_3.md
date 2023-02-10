@@ -79,4 +79,5 @@ The 1st example is showing the line numbers of all lines in California-WhatToDo.
 [Link to Source](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
 
 MLA Citation:
-Moorthy, S. (2009, March 26). *15 practical GREP command examples in linux / unix.* The Geek Stuff. Retrieved February 9, 2023, from https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/ 
+
+Moorthy, S. (2009, March 26). *15 practical GREP command examples in linux / unix.* The Geek Stuff. Retrieved February 9, 2023, from    https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/ 
