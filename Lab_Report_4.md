@@ -24,11 +24,26 @@ To run the tests, I typed the following command:
 ```
 $ cd lab7
 $ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java
+$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
 
 ## Step 7: Edit the code file to fix the failing test
+To edit the code, I typed the following command:  
+```
+$ nano ListExamples.java
+```
+Then, after doing nano, I held the down key until I reached Line 43, where I changed Line43 from "index1 += 1;" to "index2 += 1;"
+Then, I did <ctrl O> and then <enter> and then <ctrl X>.
 
 ## Step 8: Run the tests, demonstrating that they now succeed
+```
+$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```
 
 ## Step 9: Commit and push the resulting change to your Github account
+```
+$ git add ListExamples.java
+$ git commit -m "Fixed ListExamples.java"
+$ git push origin main
+```
