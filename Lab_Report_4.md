@@ -59,7 +59,7 @@ $ nano L<tab>.j<tab><enter> //should become ListExamples.java
 ```
 ![image](https://user-images.githubusercontent.com/122569404/221385455-1d7f76c4-3322-4b90-85e8-2d007cafdfa2.png)
 
-Then, after doing nano, I held the down key until I reached Line 43, where I changed Line43 from "index1 += 1;" to "index2 += 1;" (moving the cursor using the right key and backspace and then typing 2)
+Then, after doing nano, I held the down key until I reached Line 43, where I changed Line43 from "index1 += 1;" to "index2 += 1;" (moving the cursor using the right key and backspace to delete the 1 and then typing 2)
 ![image](https://user-images.githubusercontent.com/122569404/221385486-df1da99a-1bcf-4646-8135-47c5a9e647fe.png)
 
 
