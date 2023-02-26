@@ -81,7 +81,7 @@ $ git push origin main
 ```
   ![image](https://user-images.githubusercontent.com/122569404/221385625-ec6b6f2a-b88c-4b92-b78c-f0ad6ec24ba7.png)
 
-  ## Summary of Command Shortcuts used:
+## Summary of Command Shortcuts used:
   1. The `<tab>` will autocomplete a path. If there are multiple paths that fit the pattern, `<tab>` will autocomplete the path up until the first mismatch.
   2. The `<up arrow>` will rerun previous commands and it used to scroll up. For example, pressing the `<up>` 3 times will show the 3rd last command run so far.
   3. The `<enter>` will run the command after being typed in the terminal.
