@@ -19,7 +19,7 @@ I did this on github.
 Start the timer on your phone or other device! :)
 ![image](https://user-images.githubusercontent.com/122569404/221037619-447fe4a5-d4fd-44d5-b7ac-fc8f77add389.png)
 
-Source for image: https://i.ebayimg.com/images/g/n3kAAOSw8vNaVtID/s-l640.jpg
+[Source for image](https://i.ebayimg.com/images/g/n3kAAOSw8vNaVtID/s-l640.jpg)
 
 
 ## Step 4: Log into ieng6
