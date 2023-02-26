@@ -30,7 +30,7 @@ $ ssh cs15lwi23arm@ieng6.ucsd.edu
 I don't need to enter my password, since I did the libgen rsa key.
 ![image](https://user-images.githubusercontent.com/122569404/221037846-61b75bd6-01cd-4603-a78a-c250db284922.png)
 
-
+The 3 letter code (mine was arm) will vary based on the student.
 
 ## Step 5: Clone your fork of the repository from your Github account
 To clone the fork, I typed the following command:
