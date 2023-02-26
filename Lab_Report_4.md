@@ -9,6 +9,8 @@ I typed the following command when already logged into the ieng6 server (see ste
 ```
 $ rm -rf lab7/
 ```
+![image](https://user-images.githubusercontent.com/122569404/221385766-8f95800a-e5f1-4820-b86e-98501b2fc3f0.png)
+
 
 ## Step 2: Fork the repository
 I did this on github.
