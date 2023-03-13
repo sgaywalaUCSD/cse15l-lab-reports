@@ -78,7 +78,7 @@ $ find -mmin -460 -and -mmin +120
 In the first example, I list all files that have been modified in the last 460 minutes. In the second examples, I list all files that have been modified between the last 460 minutes and 120 minutes. This gives me much more control on which files I want to search for by choosing files modified by more precise minutes rather than days ago and is useful if I know the general time range in minutes I had last modified the file I am searching for.
 
 ## Sources
-This Source[https://adamtheautomator.com/bash-find/] was used in the research for the information above
+This [Source](https://adamtheautomator.com/bash-find/) was used in the research for the information above
 
 MLA Citation:
 “How to Find Files with Dozens of Criteria with the Bash Find Command.” ATA Learning, 7 Oct. 2022, https://adamtheautomator.com/bash-find/. 
