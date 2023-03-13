@@ -43,7 +43,7 @@ $ find -name "style*"
 
 In the first example, I am able to list all directories starting with "Fiji", rather than including any files starting with "Fiji", making my search more targeted. In the second example, I am able to find all files that start with the word "style", rather than including any directories starting with the word "style". This would be useful if I knew I only wanted directories or files to be listed, helping me refine my search.
 
-## Make Find Show All Files Modified on a certain date(s)
+## Make Find Show All Files Modified on a Certain Day(s)
 A super useful feature of find is to only list files that have been modified on certain days. You can do this using the `-mtime n` option, which would list all files modified n days ago. Doing +n lists all files modified more than n days ago, while doing -n lists all files modified less than n days ago. This is useful if you know the general time period the file you are searching for was last modified.
 
 Here is an example: 
@@ -60,12 +60,24 @@ $ find -mtime 2
 
 In the first example, I am searching the working directory (my CSE12 folder) for all files modified more than 60 days ago, since I used +60 as my option for the number of days. In the second example, I am searching the working directory for all files modified exactly 2 days ago, which there are none. This means I hadn't modified any files in that directory exactly 2 days ago. Ultimately, this command is useful if you know the general time period of the last time you or a program modified the file you are searching for.
 
-## Make Find Show All Files Accessed on a Certain Date(s)
-This example is somewhat similar to the last example, but instead of searching for files that have been last modified on a certain date, find offers a feature to search for all files that have been accessed on a certain date, using the `-atime n` option. In this case, n represents the number of dates the file was last modified, where -n is less than n days and +n is more than n days (like the mtime feature). This is useful when I know the last time I accessed a file, and I want to search for that file.
+## Make Find Show All Files Modified at a Certain Minute
+
+TODO: 
+This example is somewhat similar to the last example, but instead of searching for files that have been last modified on a certain Day, find also offers a feature to search for files edited a certain number of minutes ago, usiing `find -mmin n`, where n is the number of minutes ago. If you use +n, find searches for files edited more than n minutes ago in the working directory, but if you  choose -n, find searches for files edited less than n minutes ago in the working directory.
 
 Here is an example:
+```
+$ find -mmin -460
+```
+![image](https://user-images.githubusercontent.com/122569404/224595707-a3bd86a7-2739-4025-8fe9-071a0bf742f3.png)
 
+And here is another example:
+```
+$ find -mmin -460 -and -mmin +120
+```
+![image](https://user-images.githubusercontent.com/122569404/224595773-7c6da969-1bcc-45c0-ba83-028245623d38.png)
 
+In the first example, I list all files that have been modified in the last 460 minutes. In the second examples, I list all files that have been modified between the last 460 minutes and 120 minutes. This gives me much more control on which files I want to search for by choosing files modified by more precise minutes rather than days ago.
 
 
 
