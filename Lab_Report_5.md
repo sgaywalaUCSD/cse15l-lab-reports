@@ -60,7 +60,13 @@ $ find -mtime 2
 
 In the first example, I am searching the working directory (my CSE12 folder) for all files modified more than 60 days ago, since I used +60 as my option for the number of days. In the second example, I am searching the working directory for all files modified exactly 2 days ago, which there are none. This means I hadn't modified any files in that directory exactly 2 days ago. Ultimately, this command is useful if you know the general time period of the last time you or a program modified the file you are searching for.
 
-## Make 
+## Make Find Show All Files Accessed on a Certain Date(s)
+This example is somewhat similar to the last example, but instead of searching for files that have been last modified on a certain date, find offers a feature to search for all files that have been accessed on a certain date, using the `-atime n` option. In this case, n represents the number of dates the file was last modified, where -n is less than n days and +n is more than n days (like the mtime feature). This is useful when I know the last time I accessed a file, and I want to search for that file.
+
+Here is an example:
+
+
+
 
 
 4 options and give 2 examples for each (show each as a code block and command/output) and give sentence about what its doing and why useful
