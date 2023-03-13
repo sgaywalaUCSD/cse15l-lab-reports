@@ -25,7 +25,7 @@ $ find -iname "Bild2*"
 In the first example, I am searching for any file starting with "cse11" (the star is a wildcard character meaning anything that matches can go there). However, using the iname option, I can find files that start with "CSE11" also, since it is case insensitive, widening my search. In the second example, I originally search for any files starting with "Bild2". However, using the iname feature, I can also find files starting with "BILD2". Ulitmately, this feature makes it easier to search for what I want, if I don't remember what the exact upper and lower case letters are in the pattern I am searching for.
 
 ## Make Find Show All Files of a Given Type
-Another useful feature to refine a search in find is to the use -type feauture. `-type f` is an option to only list files while `-type d` is an option to only list directories. This option is useful if you know whether the thing you are searching for is a directory or a file, and -type will limit the listed results to the option selection
+Another useful feature to refine a search in find is to the use -type feauture. `-type f` is an option to only list files while `-type d` is an option to only list directories. This option is useful if you know whether the thing you are searching for is a directory or a file, and -type will limit the listed results to the option selected.
 
 Here is an example:
 ```
