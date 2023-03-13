@@ -78,7 +78,3 @@ $ find -mmin -460 -and -mmin +120
 ![image](https://user-images.githubusercontent.com/122569404/224595773-7c6da969-1bcc-45c0-ba83-028245623d38.png)
 
 In the first example, I list all files that have been modified in the last 460 minutes. In the second examples, I list all files that have been modified between the last 460 minutes and 120 minutes. This gives me much more control on which files I want to search for by choosing files modified by more precise minutes rather than days ago.
-
-
-
-4 options and give 2 examples for each (show each as a code block and command/output) and give sentence about what its doing and why useful
