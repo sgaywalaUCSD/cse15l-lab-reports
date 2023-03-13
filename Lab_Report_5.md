@@ -61,8 +61,6 @@ $ find -mtime 2
 In the first example, I am searching the working directory (my CSE12 folder) for all files modified more than 60 days ago, since I used +60 as my option for the number of days. In the second example, I am searching the working directory for all files modified exactly 2 days ago, which there are none. This means I hadn't modified any files in that directory exactly 2 days ago. Ultimately, this command is useful if you know the general time period of the last time you or a program modified the file you are searching for.
 
 ## Make Find Show All Files Modified at a Certain Minute
-
-TODO: 
 This example is somewhat similar to the last example, but instead of searching for files that have been last modified on a certain Day, find also offers a feature to search for files edited a certain number of minutes ago, usiing `find -mmin n`, where n is the number of minutes ago. If you use +n, find searches for files edited more than n minutes ago in the working directory, but if you  choose -n, find searches for files edited less than n minutes ago in the working directory.
 
 Here is an example:
